@@ -1,0 +1,9 @@
+name = "gizem-arici-theme"
+license = "Unlicense"
+licenselink = "https://unlicense.org"
+description = "Gizem Arici Theme"
+
+[author]
+  name = "Frans Peter Larsen"
+  homepage = "https://jalict.com/"
+
