@@ -1,5 +1,6 @@
 ---
 title: "About"
+layout: staticpage
 ---
 Hi, and welcome to my internet world 🌐
 
