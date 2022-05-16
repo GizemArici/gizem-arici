@@ -1,6 +1,10 @@
 {{ define "main" }}
 
-<div style="text-align: center;margin: 0 10vw 0 10vw;">
+{{ if .Params.moveDown }}
+<div style="height: {{ .Params.moveDOwn }}px;"></div>
+{{ end }}
+
+<div class="main">
     {{ .Content }}
 </div>
 

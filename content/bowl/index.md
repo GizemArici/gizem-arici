@@ -1,6 +1,7 @@
 ---
 title: "Bowl"
 thumbnail: "img1.png"
+moveDown: 500
 ---
 ![Image 1](img1.png)
 ![Image 2](img2.png)

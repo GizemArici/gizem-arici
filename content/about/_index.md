@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: about
+layout: text
 ---
 Hi, and welcome to my internet world 🌐
 
