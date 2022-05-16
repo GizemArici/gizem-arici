@@ -2,3 +2,10 @@ baseURL = "https://gizemarici.lol"
 languageCode = "en-us"
 title = "Gizem Arici"
 theme = "gizem-arici-theme"
+
+[imaging]
+  [imaging.exif]
+    disableDate = true
+    disableLatLong = true
+    excludeFields = ''
+    includeFields = ''

@@ -3,7 +3,17 @@
   {{ .Content }}
 
   {{ range .Pages }}
-    <a href="{{.Permalink}}">{{.Title}}</a>
+
+      {{ if .Params.thumbnail}}
+      <div style="padding-left: {{ index (seq 5 55 | shuffle) 0 }}vw;margin: 2vw;">
+        <a class="item" href="{{ .Permalink }}">
+            <div style="text-align: center;width:{{ index (seq 10 25 | shuffle) 0 }}vh;">
+              <img loading="lazy" width="100%" src="{{ .RelPermalink }}{{ .Params.thumbnail }}" />
+            </div>
+        </a>
+      </div>
+      {{ end }}
+
   {{ end }}
 
 {{ end }}
