@@ -1,21 +1,21 @@
 {{ define "main" }}
 
 {{ range .Pages }}
-    
       {{ range .Pages }}
       <div style="margin-right: 250px;">
         {{ if .Params.thumbnail}}
+        {{ $image := .Resources.GetMatch .Params.thumbnail }}
         <div style="position: relative; left: {{ index (seq 10 90 | shuffle) 0 }}%; width: 250px; padding: 25px 0;">
           <a href="{{ .Permalink }}">
               <div style="text-align: center; width: 250px;">
-                <img loading="lazy" width="250" src="{{ .RelPermalink }}{{ .Params.thumbnail }}" />
+                {{ with $image.Resize "250x" }}
+                <img loading="lazy" width="250" src="{{ .RelPermalink }}" />
+                {{ end }}
               </div>
           </a>
         </div>
         {{ end }}
-
       </div>
       {{ end }}
   {{ end }}
-
 {{ end }}
