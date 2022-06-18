@@ -1,19 +1,21 @@
 {{ define "main" }}
 
-  {{ .Content }}
+{{ range .Pages }}
+    
+      {{ range .Pages }}
+      <div style="margin-right: 1vw;">
+        {{ if .Params.thumbnail}}
+        <div style="position: relative; left: {{ index (seq 10 90 | shuffle) 0 }}%;width:1vw;padding: 25px 0;">
+          <a href="{{ .Permalink }}">
+              <div style="text-align:center;width:1vw;">
+                <img loading="lazy" width="250" src="{{ .RelPermalink }}{{ .Params.thumbnail }}" />
+              </div>
+          </a>
+        </div>
+        {{ end }}
 
-  {{ range .Pages }}
-
-      {{ if .Params.thumbnail}}
-      <div style="padding-left: {{ index (seq 5 55 | shuffle) 0 }}vw;margin: 2vw;">
-        <a class="item" href="{{ .Permalink }}">
-            <div style="text-align: center;width:{{ index (seq 10 25 | shuffle) 0 }}vh;">
-              <img loading="lazy" width="100%" src="{{ .RelPermalink }}{{ .Params.thumbnail }}" />
-            </div>
-        </a>
       </div>
       {{ end }}
-
   {{ end }}
 
 {{ end }}

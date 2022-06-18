@@ -1,5 +1,12 @@
 <header>
     <h1>
-        <span class="rot">☺</span> <a href="/">{{ .Site.Title }}</a> <span class="rot">☺</span> <a href="/about">About</a> <span class="rot">☺</span>
+        ☺ 
+        <a href="/">{{ .Site.Title }}</a>
+        {{ range .Site.Pages }}
+        {{ if (eq .Kind "section") }}
+        ☺ <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+    {{ end }}
+    ☺
     </h1>
 </header>

@@ -1,24 +1,14 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-
-{{ range .Pages.ByPublishDate.Reverse }}
-
-    <h3>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </h3>
-
-    
-    {{ if gt (len .Summary) 0 }}
-
-      <p>
-        {{ .Summary | safeHTML }}
-
-        <a href="{{ .RelPermalink }}">{{ .Title }} full article</a>
-      </p>
-  {{ end }}
-
-
-{{ end }}
-
+{{ range .Pages }}
+        {{ if .Params.thumbnail}}
+        <div style="padding-left: {{ index (seq 5 55 | shuffle) 0 }}vw;margin: 2vw;">
+          <a class="item" href="{{ .Permalink }}">
+              <div style="text-align: center;width:{{ index (seq 10 25 | shuffle) 0 }}vh;">
+                <img loading="lazy" width="100%" src="{{ .RelPermalink }}{{ .Params.thumbnail }}" />
+              </div>
+          </a>
+        </div>
+        {{ end }}
+      {{ end }}
 {{ end }}

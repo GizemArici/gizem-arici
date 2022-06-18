@@ -1,6 +1,6 @@
 ---
 title: "Plate"
 thumbnail: "img1.png"
-moveDown: 250
+moveDown: 150
 ---
 ![Image 1](img1.png)
