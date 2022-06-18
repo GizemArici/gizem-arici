@@ -4,10 +4,10 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: file
   name: thumbnail
-  label: thumbnail
+  label: Image Thumbnail
 - type: number
   name: moveDown
-  label: moveDown
+  label: Move Down
