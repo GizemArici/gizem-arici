@@ -3,11 +3,11 @@
 {{ range .Pages }}
     
       {{ range .Pages }}
-      <div style="margin-right: 1vw;">
+      <div style="margin-right: 250px;">
         {{ if .Params.thumbnail}}
-        <div style="position: relative; left: {{ index (seq 10 90 | shuffle) 0 }}%;width:1vw;padding: 25px 0;">
+        <div style="position: relative; left: {{ index (seq 10 90 | shuffle) 0 }}%; width: 250px; padding: 25px 0;">
           <a href="{{ .Permalink }}">
-              <div style="text-align:center;width:1vw;">
+              <div style="text-align: center; width: 250px;">
                 <img loading="lazy" width="250" src="{{ .RelPermalink }}{{ .Params.thumbnail }}" />
               </div>
           </a>

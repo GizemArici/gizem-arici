@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Gizem Arici</title>
-    <link>https://gizemarici.lol/about/</link>
+    <link>https://jalict.github.io/gizem-arici/about/</link>
     <description>Recent content in About on Gizem Arici</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://gizemarici.lol/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://jalict.github.io/gizem-arici/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
