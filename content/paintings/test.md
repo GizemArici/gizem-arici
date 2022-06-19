@@ -1,5 +1,4 @@
 +++
-draft = true
 moveDown = nil
 thumbnail = ""
 title = "Test"
