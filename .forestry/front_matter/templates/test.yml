@@ -11,3 +11,5 @@ fields:
 - type: number
   name: moveDown
   label: Move Down
+pages:
+- content/paintings/test.md
