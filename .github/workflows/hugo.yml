@@ -23,8 +23,8 @@ jobs:
           personal_token: ${{ secrets.HUGO }}
           external_repository: Jalict/gizem-arici
           publish_dir: ./docs
-          #   keep_files: true
+          keep_files: true
           user_name: Frans Peter Larsen
           user_email: larsen.frans@gmail.com
-          publish_branch: master
+          publish_branch: docs
         #   cname: example.com
