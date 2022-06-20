@@ -21,7 +21,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.HUGO }}
-          external_repository: jalict/jalict.github.io
+          external_repository: Jalict/gizem-arici
           publish_dir: ./docs
           #   keep_files: true
           user_name: Frans Peter Larsen
