@@ -1,4 +1,4 @@
-#/bin/sh
+#/bin/bash
 git pull
 hugo --minify
 git add .
