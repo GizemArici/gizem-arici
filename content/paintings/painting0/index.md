@@ -1,6 +1,6 @@
 ---
 title: "painting0"
-thumbnail: "img1.png"
+thumbnail: "painting0.png"
 ---
 acrylic paint on canvas (x cm) - 
-800DKK/108€
+2500DKK/340€
