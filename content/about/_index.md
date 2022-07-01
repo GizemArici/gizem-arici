@@ -16,4 +16,4 @@ Stay unserious. ☁️
 
 Find me on [Instagram](https://www.instagram.com/gizisvisible/), [LinkedIn](https://www.linkedin.com/in/gizem-arici-36412310b/) or get in touch via [Mail](mailto:gizem.arici@icloud.com).
 
-Website by all-time favourite babe [Frans](https://jalict.com)
+Website by all-time favourite babe [Frans](https://jalict.com) 👨🏻‍💻
