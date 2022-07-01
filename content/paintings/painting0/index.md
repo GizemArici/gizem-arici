@@ -2,5 +2,5 @@
 title: "painting 0"
 thumbnail: "painting 0.png"
 ---
-acrylic paint on canvas (x cm) - 
+acrylic paint on stretched canvas (50x70cm) - 
 2500DKK/340€
