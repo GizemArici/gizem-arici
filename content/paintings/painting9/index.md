@@ -5,4 +5,4 @@ thumbnail: "painting 9.png"
 watercolour on A4 paper - can be framed on request
 
 
-1500DKK/200€
+1000DKK/130€
