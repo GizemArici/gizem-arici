@@ -6,4 +6,4 @@ moveDown: 150
 tiny ceramics for candles, jewellery or other small pieces
 
 
-400DKK/55€
+300DKK/40€
