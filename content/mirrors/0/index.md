@@ -1,6 +1,6 @@
 ---
 title: "mirror 0"
-thumbnail: "img1.png"
+thumbnail: "mirror 0.png"
 ---
 
 acrylic paint on mirror
