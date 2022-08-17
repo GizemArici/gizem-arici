@@ -5,4 +5,4 @@ thumbnail: "painting 22.png"
 watercolour on paper (A5) - can be framed on request
 
 
-450DKK/60€
+350DKK/60€
