@@ -6,4 +6,4 @@ thumbnail: "mirror 1.png"
 acrylic paint on round mirror (ø25)
 
 
-450DKK/60€
+350DKK/50€

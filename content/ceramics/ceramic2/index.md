@@ -6,4 +6,4 @@ moveDown: 150
 beige ceramic piece with colourful centre
 
 
-300DKK/40€
+200DKK/25€
