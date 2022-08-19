@@ -4,5 +4,3 @@ thumbnail: "painting 6.png"
 ---
 acrylic paint on unstretched canvas (62x61 cm)
 
-
-2500DKK/340€

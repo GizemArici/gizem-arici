@@ -4,5 +4,3 @@ thumbnail: "painting 8.png"
 ---
 acrylic paint on unstretched canvas (100x120 cm)
 
-
-3500DKK/470€

@@ -4,5 +4,3 @@ thumbnail: "painting 9.png"
 ---
 watercolour on A4 paper 
 
-
-700DKK/94€

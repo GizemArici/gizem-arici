@@ -4,6 +4,3 @@ thumbnail: "img1.png"
 moveDown: 150
 ---
 beige ceramic piece with colourful centre
-
-
-200DKK/25€
