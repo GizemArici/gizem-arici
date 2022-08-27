@@ -21,6 +21,21 @@
     {{ end }}
     <meta property="og:description" content="{{ .Content }}" />
 
+    <!-- ld+json-->
+    {{if eq .Kind "page"}}
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "CreativeWork",
+          "name": "{{ .Title }}",
+          "author": {
+            "@type": "Person",
+            "name": "Gizem Arici"
+          },
+          "abstract": " {{ .Content }}",
+        }
+    </script>  
+    {{end }}
 
     <!-- RSS or something lol -->
     {{ with .OutputFormats.Get "rss" -}}
