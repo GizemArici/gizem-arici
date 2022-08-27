@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="content" itemscope>
+<div class="content" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="images">
         <div>
             {{ range .Resources.ByType "image" }}
@@ -12,7 +12,7 @@
     
         <div>
         {{ range .Resources.ByType "audio" }}
-            <audio controls>
+            <audio controls itemprop="audio">
                 <source src="{{ .RelPermalink }}" type="{{ .MediaType }}">
                 Your browser does not support the audio element.
             </audio> 
@@ -21,7 +21,7 @@
     
         <div>
         {{ range .Resources.ByType "video" }}
-            <video width="500" controls>
+            <video width="500" controls itemprop="video">
                 <source src="{{ .RelPermalink }}" type="{{ .MediaType }}">
                 Your browser does not support the video tag.
             </video> 
@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <span style="text-align: center;display: absolute;" itemprop="text">
+    <span style="text-align: center;display: absolute;" itemprop="text" itemprop="abstract">
         {{ .Content }}
     </div>
 </div>
