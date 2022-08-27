@@ -9,12 +9,12 @@
 
 <div style="margin-top: 4em;"></div>
   {{ range $pages | shuffle }}
-  <div style="margin-right: 250px;">
+  <div style="margin: 0 10vw;">
     {{ if .Params.thumbnail}}
     {{ $image := .Resources.GetMatch .Params.thumbnail }}
-    {{ $width := index (seq 250 500 | shuffle) 0}}
-    {{ $left := add (mul (index (seq -10 10 | shuffle) 0) 2.5) 50 }}
-    <div style="position: relative; left: {{$left}}%; width: {{$width}}px; padding: 25px 0;text-align: center;" itemscope>
+    {{ $width := index (seq 250 400 | shuffle) 0}}
+    {{ $left := index (seq 15 85 | shuffle) 0 }}
+    <div style="position: relative; left: {{$left}}%; width: {{$width}}px; padding: 25px 0;text-align: center;transform: translateX(-50%);" itemscope>
       <a href="{{ .Permalink }}" style="text-decoration: none;">
         <div style="text-align: center; width: {{$width}}px;">
           {{ with $image.Resize "500x jpeg q35" }}
