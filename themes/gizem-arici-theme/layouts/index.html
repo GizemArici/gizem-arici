@@ -9,7 +9,7 @@
     {{ $image := .Resources.GetMatch .Params.thumbnail }}
     <div
       style="position: relative; left: {{ index (seq 10 90 | shuffle) 0 }}%; width: 250px; padding: 25px 0;text-align: center;">
-      <a href="{{ .Permalink }}">
+      <a href="{{ .Permalink }}" style="text-decoration: none;">
         <div style="text-align: center; width: 250px;">
           {{ with $image.Resize "250x jpeg" }}
           <img loading="lazy" width="250" src="{{ .RelPermalink }}" />
