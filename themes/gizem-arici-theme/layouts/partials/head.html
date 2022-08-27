@@ -32,7 +32,9 @@
             "@type": "Person",
             "name": "Gizem Arici"
           },
-          "abstract": " {{ .Content }}",
+          "description": "{{ .Content | safeHTML }}",
+          "abstract": "{{ .Content | safeHTML }}",
+          "thumbnailUrl" : "{{ .Permalink }}{{ .Params.thumbnail }}"
         }
     </script>  
     {{end }}
