@@ -1,23 +1,26 @@
 {{ define "main" }}
-<div style="margin-top: 2em;">
-  {{ range .Pages }}
-    <div style="margin-right: 250px;">
-      {{ if .Params.thumbnail}}
-      {{ $image := .Resources.GetMatch .Params.thumbnail }}
-      <div style="position: relative; left: {{ index (seq 10 90 | shuffle) 0 }}%; width: 250px; padding: 25px 0;text-align: center;">
-        <a href="{{ .Permalink }}" style="text-decoration: none;">
-            <div style="text-align: center; width: 250px;">
-              {{ with $image.Resize "250x jpeg" }}
-              <img loading="lazy" width="250" src="{{ .RelPermalink }}" />
-              {{ end }}
-            </div>
-            <span>{{ .Title }}</span>
-        </a>
-        
+
+<div style="margin-top: 2em;"></div>
+{{ range .Pages | shuffle }}
+<div style="margin-right: 250px;">
+  {{ if .Params.thumbnail}}
+  {{ $image := .Resources.GetMatch .Params.thumbnail }}
+  {{ $width := index (seq 250 500 | shuffle) 0}}
+  {{ $left := add (mul (index (seq -10 10 | shuffle) 0) 2.5) 50 }}
+  <div
+    style="position: relative; left: {{ $left }}%; width: {{$width}}px; padding: 25px 0;text-align: center;">
+    <a href="{{ .Permalink }}" style="text-decoration: none;">
+      <div style="text-align: center; width: {{$width}}px;">
+        {{ with $image.Resize "500x jpeg q35" }}
+        <img loading="lazy" width="{{$width}}" src="{{ .RelPermalink }}" />
+        {{ end }}
       </div>
-      {{ end }}
-    </div>
+      <span>{{ .Title }}</span>
+    </a>
+
+  </div>
   {{ end }}
 </div>
 {{ end }}
 
+{{ end }}
