@@ -12,6 +12,16 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Open Graph Stuff -->
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="gizem arici" />
+    {{ if .Params.thumbnail }}
+    <meta property="og:image" content="{{ .Permalink }}{{ .Params.thumbnail }}" />
+    {{ end }}
+    <meta property="og:description" content="{{ .Content }}" />
+
+
     <!-- RSS or something lol -->
     {{ with .OutputFormats.Get "rss" -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

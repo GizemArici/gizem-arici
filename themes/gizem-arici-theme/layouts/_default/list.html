@@ -8,14 +8,14 @@
   {{ $width := index (seq 250 500 | shuffle) 0}}
   {{ $left := add (mul (index (seq -10 10 | shuffle) 0) 2.5) 50 }}
   <div
-    style="position: relative; left: {{ $left }}%; width: {{$width}}px; padding: 25px 0;text-align: center;">
+    style="position: relative; left: {{ $left }}%; width: {{$width}}px; padding: 25px 0;text-align: center;" itemscope>
     <a href="{{ .Permalink }}" style="text-decoration: none;">
       <div style="text-align: center; width: {{$width}}px;">
         {{ with $image.Resize "500x jpeg q35" }}
-        <img loading="lazy" width="{{$width}}" src="{{ .RelPermalink }}" />
+        <img loading="lazy" width="{{$width}}" src="{{ .RelPermalink }}" itemprop="image" alt="image of {{ .Title }}" />
         {{ end }}
       </div>
-      <span>{{ .Title }}</span>
+      <span itemprop="name">{{ .Title }}</span>
     </a>
 
   </div>

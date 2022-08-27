@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-<div class="content">
+<div class="content" itemscope>
     <div class="images">
         <div>
             {{ range .Resources.ByType "image" }}
-                {{ with .Resize "500x png"}}
-                <img src="{{ .RelPermalink }}" />
+                {{ with .Resize "500x q90 png"}}
+                <img src="{{ .RelPermalink }}" alt="image of pieces" itemprop="image"/>
                 {{ end }}
             {{ end }}
         </div>
@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <span style="text-align: center;display: absolute;">
+    <span style="text-align: center;display: absolute;" itemprop="text">
         {{ .Content }}
     </div>
 </div>

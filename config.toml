@@ -1,6 +1,6 @@
 baseURL = "https://gizemarici.com"
 languageCode = "en-us"
-title = "Gizem Arici"
+title = "gizem arici"
 theme = "gizem-arici-theme"
 publishDir = "docs/"
 
