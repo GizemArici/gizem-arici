@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mirrors on Gizem Arici</title><link>https://gizemarici.com/mirrors/</link><description>Recent content in Mirrors on Gizem Arici</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://gizemarici.com/mirrors/index.xml" rel="self" type="application/rss+xml"/><item><title>mirror 0</title><link>https://gizemarici.com/mirrors/0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gizemarici.com/mirrors/0/</guid><description>acrylic paint on mirror</description></item><item><title>mirror 1</title><link>https://gizemarici.com/mirrors/1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gizemarici.com/mirrors/1/</guid><description>acrylic paint on round mirror (ø25)</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mirrors on gizem arici</title>
+    <link>https://gizemarici.com/mirrors/</link>
+    <description>Recent content in Mirrors on gizem arici</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://gizemarici.com/mirrors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mirror 0</title>
+      <link>https://gizemarici.com/mirrors/0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gizemarici.com/mirrors/0/</guid>
+      <description>acrylic paint on mirror</description>
+    </item>
+    
+    <item>
+      <title>mirror 1</title>
+      <link>https://gizemarici.com/mirrors/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gizemarici.com/mirrors/1/</guid>
+      <description>acrylic paint on round mirror (ø25)</description>
+    </item>
+    
+  </channel>
+</rss>
