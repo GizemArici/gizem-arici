@@ -10,4 +10,5 @@
 - [ ] page.command => creates new category, based on current inde
 
 ## update 4
-gizem please add something here
+- [ ] uncapitalise categories
+- [ ] add more colours
