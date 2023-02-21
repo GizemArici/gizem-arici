@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+{{ $pages := slice }}
+
+{{ range .Pages }}
+    {{ $pages = $pages | append . }}
+{{ end }}
+
+<div style="margin-top: 2em;"></div>
+{{ range $pages | shuffle }}
+<div style="margin-right: 250px;">
+  {{ $width := index (seq 250 400 | shuffle) 0}}
+  {{ $left := index (seq 15 85 | shuffle) 0 }}
+  <div
+    style="position: relative; left: {{ $left }}%; width: {{$width}}px; padding: 25px 0;text-align: center;transform: translateX(-50%);" itemscope>
+    <div style="padding:10px;text-align: left;">
+        {{ if .Title }}
+            <a href="{{ .Permalink }}" style="text-decoration: none;font-size:20pt;"><b>{{ .Title}}</b></a>
+        {{ else }}
+            <span itemprop="name">{{ .Content }}</span>
+        {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ end }}

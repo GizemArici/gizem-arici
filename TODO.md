@@ -7,8 +7,12 @@
 - [x] just less off center?
 
 ## update 3
-- [ ] page.command => creates new category, based on current inde
+- [ ] page.command => creates new category, based on current index
 
 ## update 4
-- [ ] uncapitalise categories
-- [ ] add more colours
+- [x] uncapitalise categories
+
+## update 5
+- [x] new font color
+- [x] activity page
+- [x] writings page

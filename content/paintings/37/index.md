@@ -1,6 +1,7 @@
 ---
 title: "painting 37"
 thumbnail: "painting 37.jpeg"
+sold: false
 ---
 DONATED TO kaershovedgaard_stories
 

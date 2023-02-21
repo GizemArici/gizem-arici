@@ -1,44 +1,46 @@
 {{ define "main" }}
 
-<div class="content">
-    <div class="images">
-        <div>
-            {{ range .Resources.ByType "image" }}
-                {{ with .Resize "500x q90 png"}}
-                <div itemscope itemtype="http://schema.org/ImageObject">
-                    <meta itemprop="name" content="{{ .Title }}" />
-                    <meta itemprop="embedURL" content="{{ .RelPermalink }}" />
-                    <img src="{{ .RelPermalink }}" alt="image of pieces" itemprop="image"/>
-                </div>
+<div style="display: flex;align-items: center;justify-content: center;">
+    <div class="content" style="max-width:800px;">
+        <div class="images">
+            <div>
+                {{ range .Resources.ByType "image" }}
+                    {{ with .Resize "500x q90 png"}}
+                    <div itemscope itemtype="http://schema.org/ImageObject">
+                        <meta itemprop="name" content="{{ .Title }}" />
+                        <meta itemprop="embedURL" content="{{ .RelPermalink }}" />
+                        <img src="{{ .RelPermalink }}" alt="image of pieces" itemprop="image"/>
+                    </div>
+                    {{ end }}
                 {{ end }}
+            </div>
+        
+            <div>
+            {{ range .Resources.ByType "audio" }}
+                <audio controls itemprop="audio">
+                    <source src="{{ .RelPermalink }}" type="{{ .MediaType }}">
+                    Your browser does not support the audio element.
+                </audio> 
             {{ end }}
+            </div>
+        
+            <div>
+            {{ range .Resources.ByType "video" }}
+            <div itemscope itemtype="http://schema.org/VideoObject">
+                <meta itemprop="name" content="{{ .Title }}" />
+                <meta itemprop="embedURL" content="{{ .RelPermalink }}" />
+                <video width="500" controls itemprop="video">
+                    <source src="{{ .RelPermalink }}" type="{{ .MediaType }}">
+                    Your browser does not support the video tag.
+                </video> 
+            </div>
+            {{ end }}
+            </div>
         </div>
-    
-        <div>
-        {{ range .Resources.ByType "audio" }}
-            <audio controls itemprop="audio">
-                <source src="{{ .RelPermalink }}" type="{{ .MediaType }}">
-                Your browser does not support the audio element.
-            </audio> 
-        {{ end }}
-        </div>
-    
-        <div>
-        {{ range .Resources.ByType "video" }}
-         <div itemscope itemtype="http://schema.org/VideoObject">
-            <meta itemprop="name" content="{{ .Title }}" />
-            <meta itemprop="embedURL" content="{{ .RelPermalink }}" />
-            <video width="500" controls itemprop="video">
-                <source src="{{ .RelPermalink }}" type="{{ .MediaType }}">
-                Your browser does not support the video tag.
-            </video> 
-        </div>
-        {{ end }}
-        </div>
-    </div>
 
-    <span style="text-align: center;display: absolute;">
-        {{ .Content }}
+        <span style="text-align: center;display: absolute;">
+            {{ .Content }}
+        </div>
     </div>
 </div>
 

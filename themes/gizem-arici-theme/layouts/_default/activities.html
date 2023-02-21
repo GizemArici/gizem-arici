@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+{{ range .Pages }}
+<div style="text-align:center;width:100%;margin-top:230px;">
+  {{ if .Params.thumbnail}}
+  {{ $image := .Resources.GetMatch .Params.thumbnail }}
+
+    <a href="{{ .Permalink }}" style="text-decoration: none;">
+        {{ with $image.Resize "500x jpeg q35" }}
+        <img loading="lazy" width="400" src="{{ .RelPermalink }}" itemprop="image" alt="image of {{ .Title }}" />
+        {{ end }}
+        <br/>
+        <br/>
+        <b style="font-size:24pt;" itemprop="name">{{ .Title }}</b>
+    </a>
+    {{ end }}
+</div>
+{{ end }}
+
+{{ end }}

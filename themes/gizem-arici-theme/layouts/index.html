@@ -1,10 +1,18 @@
 {{ define "main" }}
 
 {{ $pages := slice }}
+{{ $soldPages := slice }}
+
 {{ range .Pages }}
-{{ range .Pages }}
-{{ $pages = $pages | append . }}
-{{ end }}
+  {{ if ne .Page.Type "activities" }}
+    {{ range .Pages }}
+    {{ if eq .Params.sold true  }}
+      {{ $soldPages = $soldPages | append . }}
+    {{ else }}
+      {{ $pages = $pages | append . }}
+    {{ end }}
+  {{ end }}
+  {{end }}
 {{ end }}
 
 <div style="margin-top: 4em;"></div>
@@ -21,11 +29,32 @@
           <img loading="lazy" width="{{$width}}" src="{{ .RelPermalink }}" itemprop="image" alt="image of {{ .Title }}" />
           {{ end }}
         </div>
-        <span itemprop="name">{{ .Title }}</span>
+        <div style="height:10px"></div>
+        <span itemprop="name" itemprop="name">{{ .Title }}</span>
       </a>
     </div>
     {{ end }}
   </div>
+  {{ end }}
 
+  {{ range $soldPages | shuffle }}
+  <div style="margin: 0 10vw;">
+    {{ if .Params.thumbnail}}
+    {{ $image := .Resources.GetMatch .Params.thumbnail }}
+    {{ $width := index (seq 250 400 | shuffle) 0}}
+    {{ $left := index (seq 15 85 | shuffle) 0 }}
+    <div style="position: relative; left: {{$left}}%; width: {{$width}}px; padding: 25px 0;text-align: center;transform: translateX(-50%);opacity:0.6;" itemscope>
+      <a href="{{ .Permalink }}" style="text-decoration: none;">
+        <div style="text-align: center; width: {{$width}}px;">
+          {{ with $image.Resize "500x jpeg q35" }}
+          <img loading="lazy" width="{{$width}}" src="{{ .RelPermalink }}" itemprop="image" alt="image of {{ .Title }}" />
+          {{ end }}
+        </div>
+        <div style="height:100px"></div>
+        <span itemprop="name" itemprop="name">{{ .Title }}</span>
+      </a>
+    </div>
+    {{ end }}
+  </div>
   {{ end }}
 {{ end }}
