@@ -9,7 +9,7 @@ what:		group exhibition + tattoo event
 
 where: 		springbrættet6a, 2200 copenhagen
 
-date: 		sunday, 7 august
+date: 		sunday, 7 august 2022
 
 time: 		13.00-18.00h CET
 
