@@ -1,7 +1,6 @@
 ---
 title: "event 3"
-thumbnail: "event3.gif"
-layout: activities
+thumbnail: "title"
 ---
 title: 		soundscape and essay reading in the bathhouse
 

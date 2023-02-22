@@ -1,7 +1,6 @@
 ---
 title: "event 2"
-thumbnail: "event2.gif"
-layout: activities
+thumbnail: "title"
 ---
 title: 		watery words
 
