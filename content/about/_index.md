@@ -16,6 +16,6 @@ all paintings can be framed on request, unstretched canvases can be stretched �
 
 stay unserious ☁️
 
-find me on [instagram](https://www.instagram.com/gizisvisible/), [linkedin](https://www.linkedin.com/in/gizem-arici-36412310b/) or get in touch via [mail](mailto:gizem.arici@icloud.com).
+find me on [instagram](https://www.instagram.com/gizisvisible/), [linkedin](https://www.linkedin.com/in/gizem-arici-36412310b/) and [medium](https://medium.com/@gizisvisible) or get in touch via [mail](mailto:gizem.arici@icloud.com).
 
 website by all-time favourite babe [frans](https://jalict.com) 👨🏻‍💻
