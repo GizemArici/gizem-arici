@@ -1,6 +1,6 @@
 ---
 title: "event 3"
-thumbnail: "title"
+thumbnail: "title.png"
 ---
 title: 		soundscape and essay reading in the bathhouse
 

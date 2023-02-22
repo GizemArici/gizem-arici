@@ -1,6 +1,6 @@
 ---
 title: "event 2"
-thumbnail: "title"
+thumbnail: "title.png"
 ---
 title: 		watery words
 

@@ -1,6 +1,6 @@
 ---
 title: "event 1"
-thumbnail: "title"
+thumbnail: "title.png"
 ---
 title: 		my inner child wants to have tattoos + eat cake 
 

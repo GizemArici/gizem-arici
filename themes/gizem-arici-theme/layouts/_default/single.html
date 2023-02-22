@@ -1,16 +1,19 @@
 {{ define "main" }}
 
+<div style="height:100px"></div>
+
 <div style="display: flex;align-items: center;justify-content: center;">
+    
     <div class="content" style="max-width:800px;">
         <div class="images">
             <div>
                 {{ range .Resources.ByType "image" }}
-                    {{ with .Resize "500x q90 png"}}
-                    <div itemscope itemtype="http://schema.org/ImageObject">
-                        <meta itemprop="name" content="{{ .Title }}" />
-                        <meta itemprop="embedURL" content="{{ .RelPermalink }}" />
-                        <img src="{{ .RelPermalink }}" alt="image of pieces" itemprop="image"/>
-                    </div>
+                    {{ if ne .Name "title.png" }}
+                        <div itemscope itemtype="http://schema.org/ImageObject">
+                            <meta itemprop="name" content="{{ .Title }}" />
+                            <meta itemprop="embedURL" content="{{ .RelPermalink }}" />
+                            <img src="{{ .RelPermalink }}" alt="image of pieces" itemprop="image"/>
+                        </div>
                     {{ end }}
                 {{ end }}
             </div>
@@ -38,7 +41,7 @@
             </div>
         </div>
 
-        <span style="text-align: center;display: absolute;">
+        <span style="text-align: left;display: absolute;">
             {{ .Content }}
         </div>
     </div>
