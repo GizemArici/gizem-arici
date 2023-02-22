@@ -1,7 +1,6 @@
 ---
 title: "painting 3"
-thumbnail: "painting 3.png"
+thumbnail: "painting 3.jpeg"
 sold: false
 ---
-acrylic paint on unstretched canvas (65x68 cm)
-
+mixed media on stretched canvas (10x10cm) 

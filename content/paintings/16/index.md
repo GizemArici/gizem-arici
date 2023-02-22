@@ -3,4 +3,4 @@ title: "painting 16"
 thumbnail: "painting 16.png"
 sold: false
 ---
-watercolour on paper (A4)
+acrylic paint + dried flowers on mirroring cardboard (A4, 225g)

@@ -1,7 +1,6 @@
 ---
 title: "painting 11"
-thumbnail: "painting 11.png"
+thumbnail: "painting 11.jpeg"
 sold: false
 ---
-acrylic paint on stretched canvas (50x 70cm)
-
+mixed media collage on stretched canvas (10x10cm) 

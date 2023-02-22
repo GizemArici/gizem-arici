@@ -3,5 +3,5 @@ title: "painting 9"
 thumbnail: "painting 9.png"
 sold: false
 ---
-watercolour on A4 paper 
+acrylic paint on stretched canvas (80x 80cm) 
 

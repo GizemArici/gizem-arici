@@ -1,8 +1,8 @@
 ---
 title: "painting 35"
 thumbnail: "painting 35.jpeg"
-sold: false
+sold: true
 ---
-DONATED TO kaershovedgaard_stories
+donated to @kaershovedgaard_stories
 
 acrylic paint on paper 

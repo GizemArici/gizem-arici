@@ -1,8 +1,8 @@
 ---
 title: "painting 36"
 thumbnail: "painting 36.jpeg"
-sold: false
+sold: true
 ---
-DONATED TO kaershovedgaard_stories
+donated to @kaershovedgaard_stories
 
 mixed media on shiny dark blue paper (A4) 

@@ -1,6 +1,6 @@
 ---
 title: "painting 10"
 thumbnail: "painting 10.png"
-sold: false
+sold: true
 ---
-acrylic paint on stretched canvas (80x 100cm)
+sold: acrylic painting on stretched canvas (80x 100cm)
