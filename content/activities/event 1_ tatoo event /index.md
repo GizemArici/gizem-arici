@@ -1,6 +1,7 @@
 ---
 title: "event 1"
-thumbnail: "event 1.gif"
+thumbnail: "event1.gif"
+layout: activities
 ---
 title: 		my inner child wants to get a tattoo + eat cake
 what:		group exhibition + tattoo event
