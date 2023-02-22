@@ -4,9 +4,9 @@ layout: text
 ---
 hi, and welcome to my internet world 🌐
 
-i’m gizem, a copenhagen-based creator loving too many things, being impatient learning them.
+i’m gizem, copenhagen-based, loving too many things, being impatient learning them.
 
-still, i get to make objects, paint shapes + colours, write poetry and more to come. 
+still, i get to make objects, paint shapes + colours, write poetry and host events. 
 
 i can also do some strategy work for you or write very neutral-sounding reports.
 
