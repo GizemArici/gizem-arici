@@ -1,5 +1,5 @@
 ---
-title: "ceramic 6"
+title: ""
 thumbnail: "ceramic6.png"
 moveDown: 150
 sold: true

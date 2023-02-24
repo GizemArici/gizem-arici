@@ -1,5 +1,5 @@
 ---
-title: "ceramic 1"
+title: ""
 thumbnail: "image03.png"
 sold: true
 ---
