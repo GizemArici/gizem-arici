@@ -12,6 +12,8 @@ date: 		thursday, 01 december 2022
 
 time: 		19.30-22.00h CET
 
-poets: 		ava (@avaunnur), maria (@gin__berry)+ myself (@gizisvisible)
+poets: 		ava (@avaunnur), maria (@gin__berry) + myself (@gizisvisible)
 
 production:	myself (@gizisvisible)
+
+capacity: 	47 people, sold out
