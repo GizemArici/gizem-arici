@@ -1,4 +1,5 @@
-text "bold" prayers
+prayers
+
 
 most importantly, you feel your heart beating
 

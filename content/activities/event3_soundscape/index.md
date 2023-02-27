@@ -4,7 +4,7 @@ thumbnail: "title.png"
 ---
 title: 		soundscape and essay reading in the bathhouse
 
-what:		essay reading followed by sounscape
+what:		essay reading followed by soundscape
 
 where: 		sjællandsgadebad, 2200 copenhagen
 
