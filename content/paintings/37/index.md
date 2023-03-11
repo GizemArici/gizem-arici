@@ -1,7 +1,7 @@
 ---
-title: ""
-thumbnail: "painting 37.jpeg"
-sold: false
+title: painting 17
+thumbnail: "painting17.jpeg"
+sold: true
 ---
 donated to @kaershovedgaard_stories
 
