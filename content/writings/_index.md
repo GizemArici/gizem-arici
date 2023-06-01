@@ -1,4 +1,0 @@
----
-title: "writings"
-layout: writing
----

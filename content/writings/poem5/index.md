@@ -1,1 +1,0 @@
-placid water, divine reflection
