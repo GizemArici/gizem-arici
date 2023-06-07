@@ -20,4 +20,3 @@
 ## update 6
 - [ ] activities page layout 
 - [ ] layout mobile version 
-- [ ] writings as part of rest/in overview 

@@ -1,6 +1,6 @@
 ---
-title: "painting 6"
-thumbnail: "painting 6.png"
+title: ""
+thumbnail: ""
 sold: true
 ---
 SOLD
