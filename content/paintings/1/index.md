@@ -1,6 +1,6 @@
 ---
 title: ""
-thumbnail: ""
+thumbnail: "painting 1.png"
 sold: true
 ---
 SOLD

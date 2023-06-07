@@ -1,5 +1,5 @@
 ---
-title: painting 17
+title: ""
 thumbnail: "painting17.jpeg"
 sold: true
 ---
